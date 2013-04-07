@@ -9,9 +9,9 @@ Ensure you have the following tools installed:
 ## Vagrant Setup
 Do the following:
 * $ vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
-** This will pull the VM for you
+	* This will pull the VM for you
 * git clone https://github.com/intere/Vagrant-Lucid32-Tomcat.git
-** clone this repoistory (it's your working vagrant location)
+	* clone this repoistory (it's your working vagrant location)
 * $ cd Vagrant-Lucid32-Tomcat/manifests
 * $ librarian-puppet install
 	* grabs the puppet modules for you
