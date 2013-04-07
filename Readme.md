@@ -14,11 +14,11 @@ Do the following:
 ** clone this repoistory (it's your working vagrant location)
 * $ cd Vagrant-Lucid32-Tomcat/manifests
 * $ librarian-puppet install
-** grabs the puppet modules for you
+	* grabs the puppet modules for you
 * $ cd ..
 * $ vagrant up
-** brings up the VM.
+	* brings up the VM.
 
 ## Deployment Details
 * Vagrant is setup to map port 8080 of the VM to port 4568 on your machine
-**  http://localhost:4568/
+	*  http://localhost:4568/
