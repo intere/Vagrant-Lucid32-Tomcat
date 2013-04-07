@@ -1,18 +1,13 @@
 # Basic Puppet Apache manifest
 
-
-apt::source { "canonical_archiv_precise":
-	location	=> "http://archive.canonical.com/ubuntu/",
-	release		=> "lucid",
-	repos		=> "partner",
-	include_src	=> false
-}
-
 class { 'java':
   distribution => 'jre',
   version      => 'latest',
 }
 
+service { 'iptables':
+  ensure => 'stopped',
+}
 
 include java
 include tomcat6
