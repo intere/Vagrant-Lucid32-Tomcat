@@ -9,8 +9,7 @@ Vagrant::Config.run do |config|
     #puppet.options        = "--verbose --debug"
   end
 
-  # Forward guest port 80 to host port 4567
-  config.vm.forward_port 80, 4567
+  # Forward guest port 8080 to host port 4568
   config.vm.forward_port 8080, 4568
 end
 
